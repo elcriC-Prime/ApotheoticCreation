@@ -1,0 +1,6 @@
+{
+  "create.item_attributes.item_rarity": "с редкостью '%1$s'",
+  "create.item_attributes.item_rarity.inverted": "без редкости '%1$s'",
+  "create.item_attributes.item_affix": "с аффиксом '%1$s'",
+  "create.item_attributes.item_affix.inverted": "без аффикса '%1$s'"
+}

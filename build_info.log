@@ -1,0 +1,66 @@
+Initialized native services in: C:\Users\User\.gradle\native
+Initialized jansi services in: C:\Users\User\.gradle\native
+Received JVM installation metadata from 'C:\Program Files\Java\jdk-1.8': {JAVA_HOME=C:\Program Files\Java\jdk-1.8\jre, JAVA_VERSION=1.8.0_431, JAVA_VENDOR=Oracle Corporation, RUNTIME_NAME=Java(TM) SE Runtime Environment, RUNTIME_VERSION=1.8.0_431-b10, VM_NAME=Java HotSpot(TM) 64-Bit Server VM, VM_VERSION=25.431-b10, VM_VENDOR=Oracle Corporation, OS_ARCH=amd64}
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Starting process 'Gradle build daemon'. Working directory: C:\Users\User\.gradle\daemon\8.10.2 Command: C:\Program Files\Java\jdk-1.8\bin\java.exe -Xmx3G -Dfile.encoding=x-windows-950 -Duser.country=TW -Duser.language=zh -Duser.variant -cp C:\Users\User\.gradle\wrapper\dists\gradle-8.10.2-bin\a04bxjujx95o3nb99gddekhwo\gradle-8.10.2\lib\gradle-daemon-main-8.10.2.jar -javaagent:C:\Users\User\.gradle\wrapper\dists\gradle-8.10.2-bin\a04bxjujx95o3nb99gddekhwo\gradle-8.10.2\lib\agents\gradle-instrumentation-agent-8.10.2.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.10.2
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.685 secs.
+The client will now receive all logging from the daemon (pid: 59124). The daemon log file: C:\Users\User\.gradle\daemon\8.10.2\daemon-59124.out.log
+Daemon will be stopped at the end of the build 
+Using 16 worker leases.
+Received JVM installation metadata from 'C:\Program Files\Java\jdk-1.8': {JAVA_HOME=C:\Program Files\Java\jdk-1.8\jre, JAVA_VERSION=1.8.0_431, JAVA_VENDOR=Oracle Corporation, RUNTIME_NAME=Java(TM) SE Runtime Environment, RUNTIME_VERSION=1.8.0_431-b10, VM_NAME=Java HotSpot(TM) 64-Bit Server VM, VM_VERSION=25.431-b10, VM_VENDOR=Oracle Corporation, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+Now considering [C:\Users\User\Downloads\ApotheoticCreation-mc-1.20\ApotheoticCreation-mc-1.20] as hierarchies to watch
+File system watching is active
+Starting Build
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with InstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with MergeInstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with MergeInstrumentationAnalysisTransform
+Transforming foojay-resolver-0.8.0.jar (org.gradle.toolchains:foojay-resolver:0.8.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with ExternalDependencyInstrumentingArtifactTransform
+Settings evaluated using settings file 'C:\Users\User\Downloads\ApotheoticCreation-mc-1.20\ApotheoticCreation-mc-1.20\settings.gradle'.
+Projects loaded. Root project using build file 'C:\Users\User\Downloads\ApotheoticCreation-mc-1.20\ApotheoticCreation-mc-1.20\build.gradle'.
+Included projects: [root project 'ApotheoticCreation-mc-1.20']
+
+> Configure project :
+Evaluating root project 'ApotheoticCreation-mc-1.20' using build file 'C:\Users\User\Downloads\ApotheoticCreation-mc-1.20\ApotheoticCreation-mc-1.20\build.gradle'.
+Transforming moddev-gradle-2.0.140.jar (net.neoforged:moddev-gradle:2.0.140) with InstrumentationAnalysisTransform
+Transforming gradle-idea-ext-1.2.jar (gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.2) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming moddev-gradle-2.0.140.jar (net.neoforged:moddev-gradle:2.0.140) with InstrumentationAnalysisTransform
+Transforming moddev-gradle-2.0.140.jar (net.neoforged:moddev-gradle:2.0.140) with MergeInstrumentationAnalysisTransform
+Transforming gradle-idea-ext-1.2.jar (gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.2) with InstrumentationAnalysisTransform
+Transforming gradle-idea-ext-1.2.jar (gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.2) with MergeInstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with InstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with MergeInstrumentationAnalysisTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gradle-idea-ext-1.2.jar (gradle.plugin.org.jetbrains.gradle.plugin.idea-ext:gradle-idea-ext:1.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming moddev-gradle-2.0.140.jar (net.neoforged:moddev-gradle:2.0.140) with ExternalDependencyInstrumentingArtifactTransform
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\User\Downloads\ApotheoticCreation-mc-1.20\ApotheoticCreation-mc-1.20\build.gradle' line: 6
+
+* What went wrong:
+An exception occurred applying plugin request [id: 'net.neoforged.moddev', version: '2.0.140']
+> Failed to apply plugin 'net.neoforged.moddev'.
+   > To use the NeoForge plugin, please run Gradle with Java 17 or newer. You are currently running on Java 1 (1.8).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10.2/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 7s
+Watched directory hierarchies: []
