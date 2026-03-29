@@ -22,6 +22,6 @@ A simple addon that allows defining Create attribute filters for Apotheosis rari
 * **Changes:** Re-implemented the Create `ItemAttributeType` system to modern Minecraft Data Components (`StreamCodec` and `MapCodec`), and localized the Affix names dynamically.
 
 ## Download
-Originally downloaded from [Modrinth (1.20.1)](https://modrinth.com/mod/apotheotic-creation-6.0)
+Originally downloaded from [GitHub (1.20.1)](https://github.com/futorX/ApotheoticCreation)
 
 *(You can download the compiled 1.21.1 NeoForge `.jar` from the GitHub Releases page of this repository once uploaded.)*
